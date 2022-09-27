@@ -1,0 +1,49 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""Represents an example user instance."""
+type ExampleUser {
+  """The name of the user"""
+  name: String!
+
+  """The age of the user."""
+  age: Float!
+
+  """The fields of the user"""
+  fields: [String]
+
+  """The sorting parameter of user."""
+  sortBy: ExampleUser_SortByEnum_0!
+
+  """ExampleUserSettings: The user settings."""
+  settings: ExampleUser_Settings!
+}
+
+"""The sorting parameter of user."""
+enum ExampleUser_SortByEnum_0 {
+  asc
+  desc
+}
+
+"""ExampleUserSettings: The user settings."""
+type ExampleUser_Settings {
+  """The dark theme setting"""
+  darkTheme: Boolean
+
+  """This will be float by default"""
+  ratio: Float!
+
+  """UserProfileSetting: Represents user profile settings."""
+  profile: ExampleUser_Settings_Profile!
+}
+
+"""UserProfileSetting: Represents user profile settings."""
+type ExampleUser_Settings_Profile {
+  """Indicates whether the user is showing images."""
+  showImage: Boolean!
+}
+
+type Query {
+  getUser: ExampleUser!
+}

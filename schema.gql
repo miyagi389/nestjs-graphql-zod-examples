@@ -45,5 +45,10 @@ type ExampleUser_Settings_Profile {
 }
 
 type Query {
-  getUser: ExampleUser!
+  getUser(input: UserZodInput!): ExampleUser!
+}
+
+""""""
+input UserZodInput {
+  userId: Float!
 }

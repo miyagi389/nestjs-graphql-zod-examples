@@ -3919,10 +3919,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nestjs-graphql-zod@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/nestjs-graphql-zod/-/nestjs-graphql-zod-2.0.1.tgz#592e94ada0114df2704748ceafb2b1e8431880ae"
-  integrity sha512-EoDIitSVGjr4UQCL7L44Dub5iBBLoh5tJCZL4BnBqSmxF8Y+gEivTkmYzlyq7RySW8HfvomN0cHniN8nmDBu6g==
+nestjs-graphql-zod@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/nestjs-graphql-zod/-/nestjs-graphql-zod-2.0.2.tgz#965934fd48592d92f1adedf4c7cab61b0c5b0d26"
+  integrity sha512-h0grqIu8sxdGMflatbWmpn6g9tNJsaHCIHJDaR+vCngDTMC8pzOYVPXSzlt5oNhiXWV3yAkzUHdKoS4vQYSVVg==
   dependencies:
     "@nestjs/common" "^8.4.4"
     "@nestjs/core" "^8.4.4"

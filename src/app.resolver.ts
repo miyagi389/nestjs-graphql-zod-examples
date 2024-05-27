@@ -23,7 +23,7 @@ const UserZod = zod.object({
 
 @Resolver()
 export class AppResolver {
-    @QueryWithZod(UserZod)
+    @QueryWithZod(UserZod, { description: "zod description" })
     async getUser(@ZodArgs(UserZodInput) input: ZodArgs.Of<typeof UserZodInput>) {
         if (input.userId < 0) {
             throw new NotFoundException(`userId not found: ${input.userId}`);
